@@ -18,12 +18,12 @@
 # Route and its funcitonality:
 
 For this use any API client like Postman or Thunder Client.
-Here I used Postman
+Here I used Postman.
         
 # Step 1: Create Route 
 1. This route is used to create a post in database with the following fields.
       title & description.
-2. In postmon create a collection and add new requests and select methods based on operation         
+2. In postman create a collection and add new requests and select methods based on operation         
          get: to get all the data: http://localhost:4000/posts/
          get the specific data based on id: http://localhost:4000/posts/<id>
          post: http://localhost:4000/posts
