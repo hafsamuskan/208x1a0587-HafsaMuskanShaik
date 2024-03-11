@@ -9,5 +9,4 @@ IDE: Visual Studio Code
 ## Assignment-3: Create a RESTful API using Node.js, Express.js & MongoDB
 Technologies Used: Node.js, Express.js
 Database: MongoDB
-URL: mongodb+srv://admin:admin@cluster0.xez5xvg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 Client API: Postman
