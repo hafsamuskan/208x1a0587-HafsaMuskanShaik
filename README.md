@@ -40,26 +40,26 @@ Here I used Postman
 
 # Step 2: Perform CRUD Operations
 
-  READONE :  
-       1. This route is used to read specific post by passing the specific post id as a param.
+READONE :  
+      1. This route is used to read specific post by passing the specific post id as a param.
             use GET:
             URL: http://localhost:4000/posts/65ee0c657944e3ca6e3e1305
-       2. After sending you will get the specific post details as response.
+      2. After sending you will get the specific post details as response.
         
-  READALL : 
-        1. Read all route is used to get all the post data existing in the mongodb database .
+READALL : 
+      1. Read all route is used to get all the post data existing in the mongodb database .
             use GET:
             URL: http://localhost:4000/posts/
-        2. After sending you will get all the post details as response.
+      2. After sending you will get all the post details as response.
         
-  UPDATE : 
-        1. This route is used to update the post by passing the specific post id as a param.
+UPDATE : 
+      1. This route is used to update the post by passing the specific post id as a param.
             use PUT:
             URL: http://localhost:4000/posts/65ee0c657944e3ca6e3e1305
-        2. After sending you will get updated post details as response.
+      2. After sending you will get updated post details as response.
         
-  DELETE : 
-        1. This route is used to delete specific post by passing the post id as a param.
+DELETE : 
+      1. This route is used to delete specific post by passing the post id as a param.
             use DELETE:
             URL: http://localhost:4000/posts/65ee0c657944e3ca6e3e1305
-        2. After sending the specific post will be deleted from the database.
+      2. After sending the specific post will be deleted from the database.
