@@ -10,3 +10,7 @@ IDE: Visual Studio Code
 Technologies Used: Node.js, Express.js
 Database: MongoDB
 Client API: Postman
+
+## Assignment-4: Create a Database Using MongoDB and Mongosh
+Database: MongoDB
+GUI: MongoDB Compass
