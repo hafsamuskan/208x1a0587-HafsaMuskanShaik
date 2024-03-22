@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  background-color: rgb(1, 112, 112);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(103, 128, 128);
+  box-shadow: 0px 0px 2px 2px gray;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 25%;
+  margin: 50px auto;
+  background: #b1acac;
+  color: rgb(35, 33, 33);
+  padding: 1rem;
+}
+
+.img-fluid {
+  height: 20rem;
+  width: 20rem;
+}
+.d-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .App{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .App{
+    width: 50%;
+  }
+}
